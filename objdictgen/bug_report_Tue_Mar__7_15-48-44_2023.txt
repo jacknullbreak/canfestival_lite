@@ -1,0 +1,51 @@
+app-title:
+objdictedit
+
+app-version:
+$Revision: 1.48 $
+
+cwd:
+C:\Users\jack\Desktop
+
+date:
+Tue Mar  7 15:48:44 2023
+
+e-type:
+<class 'wx._core.PyAssertionError'>
+
+e-value:
+C++ assertion "Assert failure" failed at ..\..\src\common\sizer.cpp(1401) in wxGridSizer::DoInsert(): too many items (9 > 1*8) in grid sizer (maybe you should omit the number of either rows or columns?)
+
+locals:
+    args: (<wx._core.FlexGridSizer; proxy of <Swig Object of type 'wxFlexGridSizer *' at 0x4c8a310> >, <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x4d54b50> >, 0)
+    kwargs: {'flag': 8192, 'border': 0}
+
+platform:
+Windows-10-10.0.17763
+
+python-version:
+2.7.18
+
+traceback:
+  File "E:\gs\04Mline50\canfestival-de1fc3261f21\canfestival-de1fc3261f21\objdictgen\nodeeditortemplate.py", line 181, in OnNodeInfosMenu
+    dialog = NodeInfosDialog(self.Frame)
+  File "E:\gs\04Mline50\canfestival-de1fc3261f21\canfestival-de1fc3261f21\objdictgen\commondialogs.py", line 739, in __init__
+    self._init_ctrls(parent)
+  File "E:\gs\04Mline50\canfestival-de1fc3261f21\canfestival-de1fc3261f21\objdictgen\commondialogs.py", line 736, in _init_ctrls
+    self._init_sizers()
+  File "E:\gs\04Mline50\canfestival-de1fc3261f21\canfestival-de1fc3261f21\objdictgen\commondialogs.py", line 681, in _init_sizers
+    self._init_coll_MainSizer_Items(self.MainSizer)
+  File "E:\gs\04Mline50\canfestival-de1fc3261f21\canfestival-de1fc3261f21\objdictgen\commondialogs.py", line 669, in _init_coll_MainSizer_Items
+    parent.AddWindow(self.staticText5, 0, border=0, flag=wx.GROW)
+  File "C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 14718, in AddWindow
+    return self.Add(*args, **kw)
+  File "C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py", line 14460, in Add
+    return _core_.Sizer_Add(*args, **kwargs)
+<class 'wx._core.PyAssertionError'>: C++ assertion "Assert failure" failed at ..\..\src\common\sizer.cpp(1401) in wxGridSizer::DoInsert(): too many items (9 > 1*8) in grid sizer (maybe you should omit the number of either rows or columns?)
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+3.0.0.0
+

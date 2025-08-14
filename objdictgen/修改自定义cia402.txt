@@ -1,0 +1,2 @@
+将nodemanager.py 里面的0x5FFF改为0x6FFF
+将subindextable.py里面的0x5FFF改为0x6FFF
